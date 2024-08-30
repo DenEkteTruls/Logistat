@@ -1,5 +1,7 @@
 <script>
 	import router from "page";
+	import Navbar from "./Navbar.svelte";
+
 	import Home from "./Home.svelte";
 	import Login from "./Login.svelte";
 
@@ -12,6 +14,7 @@
 </script>
 
 
+<svelte:component this={Navbar}/>
 <svelte:component this={page}/>
 
 
